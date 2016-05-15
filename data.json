@@ -1,2 +1,56 @@
-{
-}
+[
+  {
+    "day": "Monday",
+    "location": "Bedroom",
+    "background": "room.jpg",
+    "message": "\"Beep, Beep, Beep\" goes the alarm.",
+    "choices": [
+      {
+        "text": "Go back to sleep",
+        "energy": -2,
+        "mood": -3
+      },
+      {
+        "text": "Get up",
+        "energy": 2,
+        "mood": 3
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "location": "School",
+    "background": "room.jpg",
+    "message": "Blah blah blah",
+    "choices": [
+      {
+        "text": "Do something bad",
+        "energy": -2,
+        "mood": -3
+      },
+      {
+        "text": "Do something good",
+        "energy": 2,
+        "mood": 3
+      },
+      {
+        "text": "Do something awesome",
+        "energy": 20,
+        "mood": 20
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "location": "Home",
+    "background": "room.jpg",
+    "message": "Blee Blee Blee",
+    "choices": [
+      {
+        "text": "Do Anything",
+        "energy": 0,
+        "mood": 0
+      }
+    ]
+  }
+]

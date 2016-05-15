@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Day After Day</title>
-        
-        <meta charset="utf-8">
-        <meta name=viewport content="width=device-width, initial-scale=1">
-      
-        <link rel=stylesheet href="styles.css">
-    </head>
-    <body>
-        <div class="game-frame">
-            <img class="background" width="860" height="574" src="images/room.jpg" />
-            <div class="day-and-location">
-                <div class="day">MONDAY</div>
-                <div class="location">BEDROOM</div>
-            </div>
-            <div class="meters">
-              energy
-              <div class="meter energy-meter">
-                <div class="bar energy-bar"></div>
-              </div>
-              mood
-              <div class="meter mood-meter">
-                <div class="bar mood-bar"></div>
-              </div>
-            </div>
+  <head>
+    <title>Day After Day</title>
+
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+
+    <link rel=stylesheet href="styles.css">
+  </head>
+  <body>
+    <div class="game-frame">
+      <img class="background" width="860" height="574" />
+      <div class="day-and-location">
+        <div class="day"></div>
+        <div class="location"></div>
+      </div>
+      <div class="meters">
+        energy
+        <div class="meter energy-meter">
+          <div class="bar energy-bar"></div>
         </div>
-        <script src="scripts.js"></script>
-    </body>
+        mood
+        <div class="meter mood-meter">
+          <div class="bar mood-bar"></div>
+        </div>
+      </div>
+      <div class="message-box">
+        <div class="message"></div>
+        <div class="choices">
+          <div class="choice choice1"></div>
+          <div class="choice choice2"></div>
+          <div class="choice choice3"></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
 </html>
