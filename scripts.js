@@ -92,6 +92,9 @@ function choiceHandler(idx) {
   adjustEnergy(state.choices[idx].energy);
   adjustMood(state.choices[idx].mood);
   current_step++;
+  if (state.choices[idx].skip) {
+    current_step += state.choices[idx].skip;
+  }
   loadStep();
 }
 
