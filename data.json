@@ -3,23 +3,23 @@
     "day": "Monday",
     "location": "Bedroom",
     "background": "room.jpg",
-    "message": "\"Beep, Beep, Beep\" goes the alarm.",
+    "message": "*beep beep beep*  You groggily open your eyes as your alarm continues to go off. You look at the time.  6:30 am.  Ten minutes before you need to leave for school. What will you do? ",
     "choices": [
       {
         "text": "Go back to sleep",
-        "energy": -2,
-        "mood": -3
+        "energy": 0,
+        "mood": -2
       },
       {
         "text": "Get up",
-        "energy": 2,
-        "mood": 3
+        "energy": -5,
+        "mood": 0
       }
     ]
   },
   {
     "day": "Monday",
-    "location": "School",
+    "location": "Bedroom",
     "background": "room.jpg",
     "message": "Blah blah blah",
     "choices": [
