@@ -107,12 +107,3 @@ choice_btns[1].addEventListener('click', function () {
 choice_btns[2].addEventListener('click', function () {
   choiceHandler(2);
 });
-
-// FOR TESTING ONLY!
-energy_bar.addEventListener('click', function () {
-  adjustEnergy(-10);
-});
-
-mood_bar.addEventListener('click', function () {
-  adjustMood(-8);
-});
