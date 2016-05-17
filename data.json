@@ -3,7 +3,7 @@
     "day": "Monday",
     "location": "Bedroom",
     "background": "room.jpg",
-    "message": "*beep beep beep*  You groggily open your eyes as your alarm continues to go off. You look at the time.  6:30 am.  Ten minutes before you need to leave for school. What will you do? ",
+    "message": "*beep beep beep*  You groggily open your eyes as your alarm continues to go off. You look at the time.  6:30 am. Twenty minutes before you need to leave for school. What will you do? ",
     "choices": [
       {
         "text": "sleep for 5 more minutes",
@@ -86,25 +86,50 @@
       {
         "text": "go out",
         "energy": 0,
-        "mood": 0
+        "mood": 0,
       },
       {
         "text": "get school lunch",
         "energy": 0,
-        "mood": 0
+        "mood": 0,
+        "skip": 1
       },
       {
         "text": "skip",
         "energy": -10,
-        "mood": -2
+        "mood": -2,
+        "skip": 2
       }
     ]
   },
+  {"day": "Monday",
+    "location": "School",
+    "background": "room.jpg",
+    "message": "What will you get?",
+    "choices": [
+      {
+        "text": "sandwich",
+        "energy": 1,
+        "mood": 0,
+      },
+      {
+        "text": "burger",
+        "energy": 1,
+        "mood": 0
+      },
+      {
+        "text": "salad",
+        "energy": 2,
+        "mood": 0,
+  }
+      ]
+    },
+    
   {
     "day": "Monday",
     "location": "Bedroom",
     "background": "room.jpg",
-    "message": "Another long day at school. You are exhausted, but you have homework to do. What will you do?",
+    "message": "Another long day at school. You are exhausted, but you have homework. What will you do?",
     "choices": [
       {
         "text": "go to bed early",
@@ -146,5 +171,148 @@
         "mood": -2
       }
     ]
+  },
+  {
+    "day": "Tuesday",
+    "location": "Bedroom",
+    "background": "room.jpg",
+    "message": "*beep beep beep* 6:30 am. You're a bit drained from yesterday, and you're feeling a little down. (FACT) What will you do?",
+    "choices": [
+      {
+        "text": "sleep for 5 more minutes",
+        "energy": 0,
+        "mood": -2,
+        "skip": 1
+      },
+      {
+        "text": "get out of bed",
+        "energy": -10,
+        "mood": 0
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "location": "Bedroom",
+    "background": "room.jpg",
+    "message": "You have time for a quick shower. What do you want to do?",
+    "choices": [
+      {
+        "text": "shower",
+        "energy": -2,
+        "mood": 0
+      },
+      {
+        "text": "don't shower",
+        "energy": 0,
+        "mood": -2
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "location": "Kitchen",
+    "background": "room.jpg",
+    "message": "What will you eat for breakfast?",
+    "choices": [
+      {
+        "text": "apple",
+        "energy": 1,
+        "mood": 0
+      },
+       {
+        "text": "fruit salad",
+        "energy": 3,
+        "mood": 0
+      },
+       {
+        "text": "skip",
+        "energy": -10,
+        "mood": -1
+      }
+    ]
+  },
+  {
+    "day": "Monday",
+    "location": "Kitchen",
+    "background": "room.jpg",
+    "message": "Back to school. You throw your backpack on, noticing that it feels a little heavier than yesterday.",
+    "choices": [
+      {
+        "text": "walk",
+        "energy": -2,
+        "mood": 0
+      },
+      {
+        "text": "take the bus",
+        "energy": 0,
+        "mood": -2
+      }
+    ]
+  },
+  {"day": "Monday",
+    "location": "School",
+    "background": "room.jpg",
+    "message": "Lunchtime. A friend texts you to see if you want to grab something to eat with them.",
+    "choices": [
+      {
+        "text": "say yes",
+        "energy": 3,
+        "mood": 3,
+        "skip": 1
+      },
+      {
+        "text": "say no thanks",
+        "energy": 0,
+        "mood": -5
+      }
+      ]
+  },
+  {
+    "day": "Monday",
+    "location": "School",
+    "background": "room.jpg",
+    "message": "You appreciate your friends, but sometimes being around people can be too exhausting.",
+    "choices": [
+      {
+        "text": "go out",
+        "energy": 3,
+        "mood": 0, 
+        "skip": 1
+      },
+      {
+        "text": "start homework",
+        "energy": -3,
+        "mood": 1
+      },
+      {
+        "text": "watch TV",
+        "energy": -2,
+        "mood": -2
+      }
+    ]
+  },
+  {
+     "day": "Monday",
+    "location": "Bedroom",
+    "background": "room.jpg",
+    "message": "10:30 pm  You should probably go to bed soon, but you aren’t tired. ",
+    "choices": [
+      {
+        "text": "go to bed anyway",
+        "energy": 4,
+        "mood": 0
+      },
+      {
+        "text": "read",
+        "energy": 0,
+        "mood": 2
+      },
+      {
+        "text": "watch TV",
+        "energy": -2,
+        "mood": -2
+      }
+    ]
   }
-]
+  ]
