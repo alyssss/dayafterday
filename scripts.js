@@ -2,6 +2,7 @@ function getElement(className) {
   return document.getElementsByClassName(className)[0];
 }
 
+var splash_screen = getElement('splash-screen');
 var day_field = getElement('day');
 var location_field = getElement('location');
 var background_img = getElement('background');
@@ -106,4 +107,8 @@ choice_btns[1].addEventListener('click', function () {
 });
 choice_btns[2].addEventListener('click', function () {
   choiceHandler(2);
+});
+
+splash_screen.addEventListener('click', function () {
+  splash_screen.style.opacity = 0;
 });
