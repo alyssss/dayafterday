@@ -27,6 +27,10 @@ var game_data;
 var state = {};
 
 function finishGame(energyOrMood) {
+  if (state.done) {
+    return;
+  }
+  state.done = true;
   if (energyOrMood === 'energy') {
     out_of_energy.style.display = 'block';
     out_of_mood.style.display = 'none';
@@ -88,6 +92,7 @@ function loadStep() {
 
 function startGame() {
   state.energy = state.mood = 100;
+  state.done = false;
   adjustEnergy(0);
   adjustMood(0);
   current_step = 0;
@@ -135,5 +140,12 @@ splash_screen.addEventListener('click', function () {
 restart.addEventListener('click', function () {
   done.style.display = 'none';
   startGame();
+});
+
+// Hidden functionality - clicking on the day field dismisses the 'done' dialog
+day_field.addEventListener('click', function () {
+  if (state.done) {
+    done.style.display = 'none';
+  }
 });
 
