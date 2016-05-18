@@ -572,5 +572,132 @@
         "mood": -10
       }
     ]
+  },
+   {
+    "day": "Friday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "6:30 am. You're still mentally and physically exhausted. Will you go to school today?",
+    "choices": [
+      {
+        "text": "sleep for 5 more minutes",
+        "energy": 0,
+        "mood": -5,
+        "skip": 1
+      },
+      {
+        "text": "get out of bed",
+        "energy": -10,
+        "mood": -10
+      },
+      {
+        "text": "stay home from school",
+        "energy": -5,
+        "mood": -15
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You have time for a quick shower. What do you want to do?",
+    "choices": [
+      {
+        "text": "shower",
+        "energy": -5,
+        "mood": 0
+      },
+      {
+        "text": "don't shower",
+        "energy": 0,
+        "mood": -5
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "What will you eat for breakfast?",
+    "choices": [
+      {
+        "text": "banana",
+        "energy": 1,
+        "mood": 0
+      },
+       {
+        "text": "eggs and toast",
+        "energy": 3,
+        "mood": 0
+      },
+       {
+        "text": "skip",
+        "energy": -10,
+        "mood": -10
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "You take the bus again today, too tired to drive",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -5,
+        "mood": -10
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "location": "School",
+    "background": "school.jpg",
+    "message": "Somehow, you make it through the day. Your head hurts and you couldn't focus at all, but at least school is over.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -10,
+        "mood": -5
+      }
+    ]
+  },
+  {"day": "Friday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "When you get home, you realize that you forgot to eat lunch. You aren't hungry, but you know you should eat something.",
+    "choices": [
+      {
+        "text": "banana",
+        "energy": 1,
+        "mood": 0
+      },
+      {
+        "text": "sandwich",
+        "energy": 5,
+        "mood": 0
+      },
+      {
+        "text": "skip",
+        "energy": -10,
+        "mood": 0
+  }
+      ]
+    },
+    
+  {
+    "day": "Friday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You're thankful that it's the weekend now, even though you know you'll probably just sleep through it. You know that next week will most likely be the same as this week. You wonder why you feel this way, and you wonder if it will ever end...",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": 0,
+        "mood": 0
+      }
+    ]
   }
   ]
