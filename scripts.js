@@ -17,14 +17,30 @@ var choice_btns = [
 var energy_bar = getElement('energy-bar');
 var mood_bar = getElement('mood-bar');
 
+var done = getElement('done');
+var out_of_energy = getElement('out-of-energy');
+var out_of_mood = getElement('out-of-mood');
+var restart = getElement('restart');
+
 var game_data;
 
 var state = {};
 
+function finishGame(energyOrMood) {
+  if (energyOrMood === 'energy') {
+    out_of_energy.style.display = 'block';
+    out_of_mood.style.display = 'none';
+  } else {
+    out_of_energy.style.display = 'none';
+    out_of_mood.style.display = 'block';
+  }
+  done.style.display = 'block';
+}
+
 function adjustEnergy(delta) {
   state.energy += delta;
   if (state.energy <= 0) {
-    alert('You have run out of energy');
+    finishGame('energy');
   } else if (state.energy > 100) {
     state.energy = 100;
   }
@@ -34,7 +50,7 @@ function adjustEnergy(delta) {
 function adjustMood(delta) {
   state.mood += delta;
   if (state.mood <= 0) {
-    alert('You have run out of mood');
+    finishGame('mood');
   } else if (state.mood > 100) {
     state.mood = 100;
   }
@@ -111,4 +127,13 @@ choice_btns[2].addEventListener('click', function () {
 
 splash_screen.addEventListener('click', function () {
   splash_screen.style.opacity = 0;
+  setTimeout(function () {
+    splash_screen.style.display = 'none';
+  }, 2000);
 });
+
+restart.addEventListener('click', function () {
+  done.style.display = 'none';
+  startGame();
+});
+
