@@ -2,44 +2,44 @@
   {
     "day": "Monday",
     "location": "Bedroom",
-    "background": "room.jpg",
+    "background": "room2.jpg",
     "message": "*beep beep beep*  You groggily open your eyes as your alarm continues to go off. You look at the time.  6:30 am. Twenty minutes before you need to leave for school. What will you do? ",
     "choices": [
       {
         "text": "sleep for 5 more minutes",
         "energy": 0,
-        "mood": -2,
+        "mood": -5,
         "skip": 1
       },
       {
         "text": "get out of bed",
         "energy": -10,
-        "mood": 0
+        "mood": -10
       }
     ]
   },
   {
     "day": "Monday",
     "location": "Bedroom",
-    "background": "room.jpg",
+    "background": "room2.jpg",
     "message": "You have time for a quick shower. What do you want to do?",
     "choices": [
       {
         "text": "shower",
-        "energy": -2,
+        "energy": -5,
         "mood": 0
       },
       {
         "text": "don't shower",
         "energy": 0,
-        "mood": -2
+        "mood": -5
       }
     ]
   },
   {
     "day": "Monday",
     "location": "Kitchen",
-    "background": "room.jpg",
+    "background": "kitchen.jpg",
     "message": "What will you eat for breakfast?",
     "choices": [
       {
@@ -55,38 +55,38 @@
        {
         "text": "skip",
         "energy": -10,
-        "mood": -1
+        "mood": -10
       }
     ]
   },
   {
     "day": "Monday",
     "location": "Kitchen",
-    "background": "room.jpg",
+    "background": "kitchen.jpg",
     "message": "How will you be getting to school today?",
     "choices": [
       {
         "text": "walk",
-        "energy": -2,
+        "energy": -5,
         "mood": 0
       },
       {
         "text": "take the bus",
         "energy": 0,
-        "mood": -2
+        "mood": -5
       }
     ]
   },
   {
     "day": "Monday",
     "location": "School",
-    "background": "room.jpg",
+    "background": "school.jpg",
     "message": "What will you do for lunch?",
     "choices": [
       {
         "text": "go out",
         "energy": 0,
-        "mood": 0,
+        "mood": 0
       },
       {
         "text": "get school lunch",
@@ -97,20 +97,20 @@
       {
         "text": "skip",
         "energy": -10,
-        "mood": -2,
+        "mood": -10,
         "skip": 2
       }
     ]
   },
   {"day": "Monday",
     "location": "School",
-    "background": "room.jpg",
+    "background": "school.jpg",
     "message": "What will you get?",
     "choices": [
       {
         "text": "sandwich",
         "energy": 1,
-        "mood": 0,
+        "mood": 0
       },
       {
         "text": "burger",
@@ -120,7 +120,7 @@
       {
         "text": "salad",
         "energy": 2,
-        "mood": 0,
+        "mood": 0
   }
       ]
     },
@@ -128,19 +128,19 @@
   {
     "day": "Monday",
     "location": "Bedroom",
-    "background": "room.jpg",
-    "message": "Another long day at school. You are exhausted, but you have homework. What will you do?",
+    "background": "room2.jpg",
+    "message": "You are exhausted after a long day at school, but you have homework. What will you do?",
     "choices": [
       {
         "text": "go to bed early",
-        "energy": 3,
+        "energy": 5,
         "mood": 0, 
         "skip": 1
       },
       {
         "text": "start homework",
-        "energy": -3,
-        "mood": 1
+        "energy": -5,
+        "mood": 2
       },
       {
         "text": "watch TV",
@@ -152,7 +152,7 @@
   {
      "day": "Monday",
     "location": "Bedroom",
-    "background": "room.jpg",
+    "background": "room2.jpg",
     "message": "10:30 pm  You should probably go to bed soon, but you aren’t tired. ",
     "choices": [
       {
@@ -167,52 +167,52 @@
       },
       {
         "text": "watch TV",
-        "energy": -2,
-        "mood": -2
+        "energy": -5,
+        "mood": -5
       }
     ]
   },
   {
     "day": "Tuesday",
     "location": "Bedroom",
-    "background": "room.jpg",
-    "message": "*beep beep beep* 6:30 am. You're a bit drained from yesterday, and you're feeling a little down. (FACT) What will you do?",
+    "background": "room2.jpg",
+    "message": "*beep beep beep* 6:30 am. You're a bit drained from yesterday, and you're feeling a little down. What will you do?",
     "choices": [
       {
         "text": "sleep for 5 more minutes",
         "energy": 0,
-        "mood": -2,
+        "mood": -5,
         "skip": 1
       },
       {
         "text": "get out of bed",
         "energy": -10,
-        "mood": 0
+        "mood": -10
       }
     ]
   },
   {
-    "day": "Monday",
+    "day": "Tuesday",
     "location": "Bedroom",
-    "background": "room.jpg",
+    "background": "room2.jpg",
     "message": "You have time for a quick shower. What do you want to do?",
     "choices": [
       {
         "text": "shower",
-        "energy": -2,
+        "energy": -5,
         "mood": 0
       },
       {
         "text": "don't shower",
         "energy": 0,
-        "mood": -2
+        "mood": -5
       }
     ]
   },
   {
-    "day": "Monday",
+    "day": "Tuesday",
     "location": "Kitchen",
-    "background": "room.jpg",
+    "background": "kitchen.jpg",
     "message": "What will you eat for breakfast?",
     "choices": [
       {
@@ -228,90 +228,348 @@
        {
         "text": "skip",
         "energy": -10,
-        "mood": -1
+        "mood": -10
       }
     ]
   },
   {
-    "day": "Monday",
+    "day": "Tuesday",
     "location": "Kitchen",
-    "background": "room.jpg",
+    "background": "kitchen.jpg",
     "message": "Back to school. You throw your backpack on, noticing that it feels a little heavier than yesterday.",
     "choices": [
       {
         "text": "walk",
-        "energy": -2,
+        "energy": -5,
         "mood": 0
       },
       {
         "text": "take the bus",
         "energy": 0,
-        "mood": -2
+        "mood": -5
       }
     ]
   },
-  {"day": "Monday",
+  {"day": "Tuesday",
     "location": "School",
-    "background": "room.jpg",
+    "background": "school.jpg",
     "message": "Lunchtime. A friend texts you to see if you want to grab something to eat with them.",
     "choices": [
       {
         "text": "say yes",
-        "energy": 3,
-        "mood": 3,
+        "energy": -5,
+        "mood": 5,
         "skip": 1
       },
       {
         "text": "say no thanks",
         "energy": 0,
-        "mood": -5
+        "mood": -10
       }
       ]
   },
   {
-    "day": "Monday",
+    "day": "Tuesday",
     "location": "School",
-    "background": "room.jpg",
+    "background": "school.jpg",
     "message": "You appreciate your friends, but sometimes being around people can be too exhausting.",
     "choices": [
       {
-        "text": "go out",
-        "energy": 3,
-        "mood": 0, 
-        "skip": 1
-      },
-      {
-        "text": "start homework",
-        "energy": -3,
-        "mood": 1
-      },
-      {
-        "text": "watch TV",
-        "energy": -2,
-        "mood": -2
+        "text": "NEXT",
+        "energy": 0,
+        "mood": 0
       }
     ]
   },
   {
-     "day": "Monday",
+     "day": "Tuesday",
     "location": "Bedroom",
-    "background": "room.jpg",
-    "message": "10:30 pm  You should probably go to bed soon, but you aren’t tired. ",
+    "background": "room2.jpg",
+    "message": "You're depleted from another tiring day, but you still have homework to finish. What will you do?. ",
     "choices": [
       {
-        "text": "go to bed anyway",
-        "energy": 4,
-        "mood": 0
+        "text": "skip the homework, you're too tired",
+        "energy": 3,
+        "mood": -5,
+        "skip": 2
       },
       {
-        "text": "read",
-        "energy": 0,
-        "mood": 2
+        "text": "do homework",
+        "energy": -5,
+        "mood": 1
       },
       {
         "text": "watch TV",
-        "energy": -2,
-        "mood": -2
+        "energy": -4,
+        "mood": -3,
+        "skip": 1
+      }
+    ]
+  },
+  {
+     "day": "Tuesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "10:30 pm. You feel good about completing your homework, but that's the only positive emotion you've felt for a while. You're drained from the past two days. Your body is entirely wiped out, but your mind is still awake. Will you go to bed or stay up?",
+    "choices": [
+      {
+        "text": "go to bed",
+        "energy": 2,
+        "mood": 0
+      },
+      {
+        "text": "stay up a little longer",
+        "energy": -10,
+        "mood": -10
+      }
+    ]
+  },
+   {
+    "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "Your alarm goes off at 6:30 am, same as every other day. You're very exhausted, and consider staying home from school today as you decide whether or not to get up. ",
+    "choices": [
+      {
+        "text": "sleep for 5 more minutes",
+        "energy": 0,
+        "mood": -5,
+        "skip": 1
+      },
+      {
+        "text": "get out of bed",
+        "energy": -10,
+        "mood": -10
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You're too tired to take a shower.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -5,
+        "mood": -5
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "What will you eat for breakfast?",
+    "choices": [
+      {
+        "text": "orange",
+        "energy": 1,
+        "mood": 0
+      },
+       {
+        "text": "bacon and eggs",
+        "energy": 5,
+        "mood": 0
+      },
+       {
+        "text": "skip",
+        "energy": -10,
+        "mood": -10
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "You're dreading going back to school, but you don't want your grades to suffer. You're too tired to drive so you decide to take the bus.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": 0,
+        "mood": -5
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "School",
+    "background": "school.jpg",
+    "message": "You could hardly make it through your classes today. You had difficulty focusing, so all the information went straight through your head. It's lunchtime now, but you aren't hungry. What will you do?",
+    "choices": [
+      {
+        "text": "go out",
+        "energy": 0,
+        "mood": 0
+      },
+      {
+        "text": "get school lunch",
+        "energy": 0,
+        "mood": 0,
+        "skip": 1
+      },
+      {
+        "text": "skip",
+        "energy": -10,
+        "mood": -10,
+        "skip": 2
+      }
+    ]
+  },
+  {"day": "Wednesday",
+    "location": "School",
+    "background": "school.jpg",
+    "message": "What will you get?",
+    "choices": [
+      {
+        "text": "sandwich",
+        "energy": 1,
+        "mood": 0
+      },
+      {
+        "text": "burger",
+        "energy": 1,
+        "mood": 0
+      },
+      {
+        "text": "salad",
+        "energy": 2,
+        "mood": 0
+      }
+      ]
+    }, 
+  {
+    "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You get home from school and go straight to the couch to lay down. Your mom asks you how your day was.",
+    "choices": [
+      {
+        "text": "tell her your day was fine",
+        "energy": -5,
+        "mood": -10, 
+        "skip": 1
+      },
+      {
+        "text": "tell her you had a bad day",
+        "energy": -5,
+        "mood": 5
+      }
+    ]
+  },
+  {
+     "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "She sits down and the two of you talk for a little bit. You tell her you've been feeling a bit tired lately. She gives you a hug and tells you to get some rest. You feel relieved after talking to her, even though it was hard for you to do.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -5,
+        "mood": 10,
+        "skip": 1
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "She's skeptical, but figures that you don't want to talk about it. ",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -5,
+        "mood": -5
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You're too tired to do anything, so you go straight to bed. Despite being completely beat, it still takes you a couple hours to fall asleep. You lay in your bed, tossing and turning. Your mind is racing and you can't seem to make it stop. Finally, you drift into a restless sleep.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": 2, 
+        "mood": -15
+      }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You wake up before your alarm. You had nightmares last night, and feel as though you've hardly slept at all. You look at your clock and see that you still have over an hour before you need to get up. You try to go back to sleep, but your mind is racing again.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -15,
+        "mood": -15
+      }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "By the time your alarm goes off, you're still awake. You can't bring yourself to get out of bed, so you ask your mom if you can stay home.",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -5,
+        "mood": -5
+      }
+    ]
+  },
+  {"day": "Thursday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "You sleep for a couple more hours. It's 1:15 pm now. You should be hungry by now, but you aren't. Will you get up and eat or stay in bed?",
+    "choices": [
+      {
+        "text": "get up and eat",
+        "energy": -10,
+        "mood": 5
+      },
+      {
+        "text": "stay in bed",
+        "energy": 0,
+        "mood": -10,
+        "skip": 1
+      }
+      ]
+  },
+  {
+    "day": "Thursday",
+    "location": "Kitchen",
+    "background": "kitchen.jpg",
+    "message": "What will you eat?",
+    "choices": [
+      {
+        "text": "sandwich",
+        "energy": 2,
+        "mood": 0
+      },
+      {
+        "text": "ice cream",
+        "energy": 0,
+        "mood": -5
+      }
+    ]
+  },
+  {
+     "day": "Thursday",
+    "location": "Bedroom",
+    "background": "room2.jpg",
+    "message": "The rest of the day passes slowly as you try to make yourself feel better. You can't seem to do anything to get out of this funk. You can't seem to do anything, period. Wondering why you feel so down, you close your eyes and sink into your bed. You wish you could get up and do something productive. You wish your body didn't feel too heavy to move. You wish this feeling would end...",
+    "choices": [
+      {
+        "text": "NEXT",
+        "energy": -10,
+        "mood": -10
       }
     ]
   }
