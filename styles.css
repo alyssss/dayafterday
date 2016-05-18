@@ -157,3 +157,10 @@ html {
 .out-of-mood {
   display: none;
 }
+
+.end-screen {
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 2s;
+}
+

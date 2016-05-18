@@ -3,6 +3,8 @@ function getElement(className) {
 }
 
 var splash_screen = getElement('splash-screen');
+var end_screen = getElement('end-screen');
+end_screen.style.opacity = 0;
 var day_field = getElement('day');
 var location_field = getElement('location');
 var background_img = getElement('background');
@@ -62,6 +64,11 @@ function adjustMood(delta) {
 }
 
 function loadStep() {
+  if (current_step >= game_data.length) {
+    end_screen.style.opacity = 1;
+    return;
+  }
+  
   var step = game_data[current_step];
   
   day_field.innerHTML = step.day;
